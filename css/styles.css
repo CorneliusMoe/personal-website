@@ -1,3 +1,26 @@
 * {
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+.sitelink[href^="#"] {
+  padding-right: 15px;
+  text-decoration: none;
+}
+
+.sitelink:hover {
+  color: lightblue;
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
 }
